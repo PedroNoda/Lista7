@@ -20,7 +20,7 @@ public class ex05 {
 				k = linhas + vetor[j];
 				linhas = vetor[j];
 				vetor[j] = k;
-				System.out.print(vetor[j] + ", ");
+				System.out.printf("%d, ", vetor[j]);
 			}
 		}
 		sc.close();
